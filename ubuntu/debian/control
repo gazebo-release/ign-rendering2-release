@@ -6,6 +6,7 @@ Priority: optional
 Build-Depends: cmake,
                pkg-config,
                debhelper (>= 9),
+               freeglut3-dev,
                libfreeimage-dev,
                libignition-cmake2-dev,
                libignition-math6-dev,
@@ -29,6 +30,7 @@ Package: libignition-rendering-dev
 Architecture: any
 Section: libdevel
 Depends: libfreeimage-dev,
+         freeglut3-dev,
          libignition-cmake2-dev,
          libignition-math6-dev,
          libignition-common3-dev,
