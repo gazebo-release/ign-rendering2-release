@@ -1,3 +1,9 @@
+ignition-rendering (1.0.0~pre2-1~bionic) bionic; urgency=medium
+
+  * ignition-rendering 1.0.0~pre2-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Tue, 11 Sep 2018 12:33:45 -0700
+
 ignition-rendering (1.0.0~pre1-1~bionic) bionic; urgency=medium
 
   * ignition-rendering 1.0.0~pre1-1 release
