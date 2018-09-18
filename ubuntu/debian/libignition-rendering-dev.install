@@ -2,5 +2,3 @@ usr/include/*
 usr/lib/*/*.so
 usr/lib/*/pkgconfig/*.pc
 usr/lib/*/cmake/ignition-rendering*/*
-usr/share/ignition/rendering-*/*
-usr/share/ignition/ignition-rendering*/*
