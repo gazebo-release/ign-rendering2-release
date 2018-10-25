@@ -1,3 +1,9 @@
+ignition-rendering (1.0.0~pre4-1~sid) sid; urgency=medium
+
+  * ignition-rendering 1.0.0~pre4-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Thu, 25 Oct 2018 15:12:45 -0700
+
 ignition-rendering (1.0.0~pre3-3~sid) sid; urgency=medium
 
   * ignition-rendering 1.0.0~pre3-3 release
