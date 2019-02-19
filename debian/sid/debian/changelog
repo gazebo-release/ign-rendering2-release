@@ -1,3 +1,9 @@
+ignition-rendering (1.0.0~pre7-1~sid) sid; urgency=medium
+
+  * ignition-rendering 1.0.0~pre7-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Tue, 19 Feb 2019 12:40:55 -0800
+
 ignition-rendering (1.0.0~pre6-1~sid) sid; urgency=medium
 
   * ignition-rendering 1.0.0~pre6-1 release
