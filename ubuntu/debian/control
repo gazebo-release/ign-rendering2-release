@@ -28,6 +28,8 @@ Multi-Arch: same
 Description: Ignition Rendering classes and functions for robot apps - Shared library
   Ignition Rendering is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
+  .
+  Main shared library
 
 # Only for the examples:
 # 
@@ -38,11 +40,10 @@ Description: Ignition Rendering classes and functions for robot apps - Shared li
 Package: libignition-rendering-core-dev
 Architecture: any
 Section: libdevel
-Depends: 
-         libignition-cmake2-dev,
+Depends: libignition-cmake2-dev,
          libignition-math6-dev,
          libignition-common3-dev,
-         libignition-rendering-core (= ${binary:Version}),
+         libignition-rendering (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Rendering classes and functions - Core development files
@@ -57,7 +58,6 @@ Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-math6-dev,
          libignition-common3-dev,
-         libignition-plugin-dev,
          libogre-1.9-dev,
          libignition-rendering-ogre1 (= ${binary:Version}),
          ${misc:Depends}
@@ -65,21 +65,62 @@ Multi-Arch: same
 Description: Ignition Rendering classes and functions for robot apps - Development files
   Ignition Rendering is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
+  .
+  Ogre1 component development files
 
-Package: libignition-rendering-dev
+Package: libignition-rendering-ogre1
 Architecture: any
 Section: libdevel
-Depends: libfreeimage-dev,
-         freeglut3-dev,
-         libglew-dev,
-         libignition-cmake2-dev,
-         libignition-math6-dev,
-         libignition-common3-dev,
-         libignition-plugin-dev,
-         libogre-1.9-dev,
-         libignition-rendering (= ${binary:Version}),
+Depends: ${shlibs:Depends},
+         libignition-rendering-ogre1 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Rendering classes and functions for robot apps - Development files
   Ignition Rendering is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
+  .
+  Ogre1 component shared library
+
+Package: libignition-rendering-ogre2-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-cmake2-dev,
+         libignition-math6-dev,
+         libignition-common3-dev,
+         libogre-2.1-dev,
+         libignition-rendering-ogre2 (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Rendering classes and functions for robot apps - Development files
+  Ignition Rendering is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Ogre2 component development files
+
+Package: libignition-rendering-ogre2
+Architecture: any
+Section: libdevel
+Depends: ${shlibs:Depends},
+         libignition-rendering-ogre2 (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Rendering classes and functions for robot apps - Development files
+  Ignition Rendering is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Ogre2 component shared library
+
+Package: libignition-rendering-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-rendering-core-dev,
+         libignition-rendering-ogre1-dev,
+         libignition-rendering-ogre2-dev
+         libignition-rendering (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Rendering classes and functions for robot apps - Metapackage
+  Ignition Rendering is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Metapackage for developement files

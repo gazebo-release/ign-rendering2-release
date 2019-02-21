@@ -1,0 +1,7 @@
+usr/include/ignition/rendering[0-99]/ignition/rendering/ogre/*
+usr/include/ignition/rendering1[0-99]/ignition/rendering/ogre.hh
+usr/lib/*/libignition-rendering[0-99]-ogre.so
+# needs fixing for arch dependant
+usr/lib/pkgconfig/ignition-rendering[0-99]-ogre.pc
+usr/lib/cmake/ignition-rendering[0-99]-ogre/*
+usr/share/ignition/ignition-rendering1/ogre/*
