@@ -13,7 +13,7 @@ Build-Depends: cmake,
                libignition-cmake2-dev,
                libignition-common3-dev,
                libignition-math6-dev,
-               libignition-plugin1-dev,
+               libignition-plugin-dev,
                libogre-1.9-dev,
                libogre-2.1-dev
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-rendering-release
