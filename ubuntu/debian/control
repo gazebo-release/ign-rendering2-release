@@ -25,6 +25,8 @@ Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: libignition-rendering-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
+Replaces: libignition-rendering-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
 Multi-Arch: same
 Description: Ignition Rendering classes and functions for robot apps - Shared library
   Ignition Rendering is a component in the ignition framework, a set of libraries
@@ -46,6 +48,8 @@ Depends: libignition-cmake2-dev,
          libignition-common3-dev,
          libignition-rendering (= ${binary:Version}),
          ${misc:Depends}
+Breaks: libignition-rendering-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
+Replaces: libignition-rendering-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
 Multi-Arch: same
 Description: Ignition Rendering classes and functions - Core development files
   Ignition Rendering is a component in the ignition framework, a set of libraries
@@ -62,6 +66,8 @@ Depends: libignition-cmake2-dev,
          libogre-1.9-dev,
          libignition-rendering-ogre1 (= ${binary:Version}),
          ${misc:Depends}
+Breaks: libignition-rendering-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
+Replaces: libignition-rendering-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
 Multi-Arch: same
 Description: Ignition Rendering classes and functions for robot apps - Development files
   Ignition Rendering is a component in the ignition framework, a set of libraries
@@ -73,6 +79,8 @@ Package: libignition-rendering-ogre1
 Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: libignition-rendering-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
+Replaces: libignition-rendering-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
 Multi-Arch: same
 Description: Ignition Rendering classes and functions for robot apps - Development files
   Ignition Rendering is a component in the ignition framework, a set of libraries
@@ -89,6 +97,8 @@ Depends: libignition-cmake2-dev,
          libogre-2.1-dev,
          libignition-rendering-ogre2 (= ${binary:Version}),
          ${misc:Depends}
+Breaks: libignition-rendering-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
+Replaces: libignition-rendering-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
 Multi-Arch: same
 Description: Ignition Rendering classes and functions for robot apps - Development files
   Ignition Rendering is a component in the ignition framework, a set of libraries
@@ -100,6 +110,8 @@ Package: libignition-rendering-ogre2
 Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: libignition-rendering-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
+Replaces: libignition-rendering-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
 Multi-Arch: same
 Description: Ignition Rendering classes and functions for robot apps - Development files
   Ignition Rendering is a component in the ignition framework, a set of libraries
