@@ -1,4 +1,1 @@
-usr/include/*
-usr/lib/*/*.so
-usr/lib/*/pkgconfig/*.pc
-usr/lib/*/cmake/ignition-rendering*/*
+usr/lib/*/cmake/ignition-rendering[0-99]-all/ignition-rendering[0-99]-all*

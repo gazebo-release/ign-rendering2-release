@@ -1,2 +1,1 @@
-usr/lib/*/*.so.*
-usr/share/ignition/ignition-rendering*/*
+usr/lib/*/libignition-rendering[0-99].so.*
