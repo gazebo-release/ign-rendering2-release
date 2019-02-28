@@ -12,6 +12,7 @@ Build-Depends: cmake,
                libfreeimage-dev,
                libignition-cmake2-dev,
                libignition-common3-events-dev,
+               libignition-common3-graphics-dev,
                libignition-math6-dev,
                libignition-plugin-dev,
                libogre-1.9-dev,
@@ -45,6 +46,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
+         libignition-common3-graphics-dev,
          libignition-math6-dev,
          libignition-rendering (= ${binary:Version}),
          ${misc:Depends}
@@ -62,6 +64,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
+         libignition-common3-graphics-dev,
          libignition-math6-dev,
          libogre-1.9-dev,
          libignition-rendering-ogre1 (= ${binary:Version}),
@@ -93,6 +96,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
+         libignition-common3-graphics-dev,
          libignition-math6-dev,
          libogre-2.1-dev,
          libignition-rendering-ogre2 (= ${binary:Version}),
