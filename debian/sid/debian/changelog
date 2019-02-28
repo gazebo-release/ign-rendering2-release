@@ -1,3 +1,9 @@
+ignition-rendering (1.0.0-1~sid) sid; urgency=medium
+
+  * ignition-rendering 1.0.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 28 Feb 2019 23:57:02 +0000
+
 ignition-rendering (1.0.0~pre7-1~sid) sid; urgency=medium
 
   * ignition-rendering 1.0.0~pre7-1 release
