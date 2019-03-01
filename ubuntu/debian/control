@@ -67,7 +67,7 @@ Depends: libignition-cmake2-dev,
          libignition-common3-graphics-dev,
          libignition-math6-dev,
          libogre-1.9-dev,
-         libignition-rendering-core-dev
+         libignition-rendering-core-dev,
          libignition-rendering-ogre1 (= ${binary:Version}),
          ${misc:Depends}
 Breaks: libignition-rendering-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
@@ -100,7 +100,7 @@ Depends: libignition-cmake2-dev,
          libignition-common3-graphics-dev,
          libignition-math6-dev,
          libogre-2.1-dev,
-         libignition-rendering-core-dev
+         libignition-rendering-core-dev,
          libignition-rendering-ogre2 (= ${binary:Version}),
          ${misc:Depends}
 Breaks: libignition-rendering-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
