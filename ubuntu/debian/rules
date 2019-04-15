@@ -19,7 +19,7 @@ override_dh_install:
 	# need to remove files present in components
 	$(RM) debian/libignition-rendering*-core-dev/usr/include/ignition/rendering*/ignition/rendering/ogre.hh
 	$(RM) debian/libignition-rendering*-core-dev/usr/include/ignition/rendering*/ignition/rendering/ogre2.hh
-	dh_missing --list-missing
+	# dh_missing --list-missing
 
 # test cannot run in parallel
 override_dh_auto_test:
