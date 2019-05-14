@@ -1,4 +1,10 @@
-ignition-rendering2 (2.0.0-2~sid) sid; urgency=medium
+ignition-rendering2 (2.0.0~pre1-1~sid) sid; urgency=medium
+
+  * ignition-rendering2 2.0.0~pre1-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Tue, 14 May 2019 13:17:22 -0700
+
+ignition-rendering2 (1.0.0-2~sid) sid; urgency=medium
 
   * ignition-rendering 1.0.0-2 release
 
