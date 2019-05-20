@@ -1,3 +1,9 @@
+ignition-rendering2 (2.0.0-1~stretch) stretch; urgency=medium
+
+  * ignition-rendering2 2.0.0-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Mon, 20 May 2019 16:39:27 -0700
+
 ignition-rendering2 (2.0.0~pre1-1~stretch) stretch; urgency=medium
 
   * ignition-rendering2 2.0.0~pre1-1 release
