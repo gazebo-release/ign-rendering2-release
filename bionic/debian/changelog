@@ -1,3 +1,9 @@
+ignition-rendering2 (2.1.1-1~bionic) bionic; urgency=medium
+
+  * ignition-rendering2 2.1.1-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Fri, 06 Sep 2019 16:24:28 -0700
+
 ignition-rendering2 (2.1.0-1~bionic) bionic; urgency=medium
 
   * ignition-rendering2 2.1.0-1 release
